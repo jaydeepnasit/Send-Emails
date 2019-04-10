@@ -6,7 +6,8 @@ Send Email Using Xampp Local Server in PHP
 * PHP >= 7.1
 
 ## Configure XAMPP To Send Mail From Localhost
-* (1) Open Xampp Folder From Your Device & Go " Xampp/sendmail/sendmail.ini ".
+
+* (1) Open Xampp Folder From Your Device & Go " ~\Xampp\sendmail\sendmail.ini ".
 
 ![sendmailini](https://user-images.githubusercontent.com/26626045/55871683-074c8280-5b40-11e9-8a43-ef77c7e96e66.jpg)
 
@@ -24,4 +25,14 @@ auth_password=Email_ID_Password
 ![456](https://user-images.githubusercontent.com/26626045/55872791-bb4f0d00-5b42-11e9-8bb8-92faebf1d39c.jpg)
 
 
+* (3) Now Open " ~\xampp\php\php.ini " file & do Following Changes :-
+
+```
+sendmail_path = C:\xampp\sendmail\sendmail.exe
+Comment = [mail function]
+```
+
+![55555](https://user-images.githubusercontent.com/26626045/55874043-0b7b9e80-5b46-11e9-917c-e9e3ad09b4f8.jpg)
+
+* (4) Last Restart Xampp Server.
 
