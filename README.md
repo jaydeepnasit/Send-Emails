@@ -1,7 +1,7 @@
 # Send-Emails
 Send Email Using Xampp Local Server in PHP
 
-![send-email](https://user-images.githubusercontent.com/26626045/55874488-5c3fc700-5b47-11e9-8223-8c2138fb29f5.jpg)
+![send-email-min](https://user-images.githubusercontent.com/26626045/55874579-a032cc00-5b47-11e9-8794-5033be429468.jpg)
 
 ## Requirements
 * XAMPP >= 7.0
@@ -48,5 +48,13 @@ Comment = [mail function]
 
 * (4) Last Restart Xampp Server.
 
+## Screenshots
 
+(A) Home Page
+
+![Capture](https://user-images.githubusercontent.com/26626045/55874650-d6704b80-5b47-11e9-9c8c-f2077aaaf257.PNG)
+
+(B) Email Status 
+
+![Capture2](https://user-images.githubusercontent.com/26626045/55874678-eb4cdf00-5b47-11e9-9bb1-60c58424f803.PNG)
 
